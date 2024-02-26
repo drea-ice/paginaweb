@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family =Rubik+Glitch+Pop&display=intercambio');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(213, 183, 241);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 241, 112);
+}
+a{
+    color: rgb(255, 241, 112);
+    text-decoration: none;
+}
+img{
+    width: 30px;
+}
+h1{
+    font-size: xx-large;
+    color: rgb(180, 66, 66);
+    font-family: "Cormorant Garamond", serif; peso de fuente: 300; estilo de fuente: normal;
+}
+h2{
+    font-size: larger;
+    color: rgb(236, 171, 218);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: medium;
+    color: rgb(36, 35, 35);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.main img{
+    width: 300px;
+    height: 180px;
+}
+#Músicaparameditar{
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+#Músicaparameditar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.carousel-item img{
+    width: 100px;
+}
+.carousel-control-prev-icon{
+    color: black;
+}
+#carouselExampleControls{
+    width: 600px;
+    height: 600px;
+    margin: 0 370px 0 370px;
+}
